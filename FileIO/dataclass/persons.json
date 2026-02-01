@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Taras",
+    "age": 37,
+    "married": false,
+    "hobbies": [
+      "writing",
+      "painting"
+    ],
+    "address": {
+      "city": "Morintsi",
+      "zipcode": "20210"
+    }
+  },
+  {
+    "name": "Artem",
+    "age": 34,
+    "married": true,
+    "hobbies": [
+      "fact checking"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "zipcode": "01001"
+    }
+  },
+  {
+    "name": "Taras",
+    "age": 37,
+    "married": false,
+    "hobbies": [
+      "writing",
+      "painting"
+    ],
+    "address": {
+      "city": "Morintsi",
+      "zipcode": "20210"
+    }
+  },
+  {
+    "name": "Artem",
+    "age": 34,
+    "married": true,
+    "hobbies": [
+      "fact checking"
+    ],
+    "address": {
+      "city": "Kyiv",
+      "zipcode": "01001"
+    }
+  }
+]
