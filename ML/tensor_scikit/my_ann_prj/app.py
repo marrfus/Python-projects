@@ -2,16 +2,19 @@ import tensorflow as tf
 import numpy as np
 from keras.preprocessing import image
 from keras import models
+import os
 
 
-MODEL_PATH="hunde_katzen_model.h5"
+
+MODEL_PATH=r"\Users\MariaSizintseva\Desktop\MariaDocs\marrfusProgBackup\python\ML\tensor_scikit\my_ann_prj\archive\male_female_model.h5"  #male female
+#MODEL_PATH = r"\Users\MariaSizintseva\Desktop\MariaDocs\marrfusProgBackup\python\ML\tensor_scikit\my_ann_prj\daten\hunde_katzen_model.h5"  #cats dogs
 IMG_SIZE=(160,160)
 IMAGE_TO_PREDICT = r"\Users\MariaSizintseva\Desktop\MariaDocs\marrfusProgBackup\python\ML\tensor_scikit\my_ann_prj\image.png"
 
 # class_names = ["hunde","katzen"]
-class_names = ["male","female"]
+class_names = ["female","male"]
 
-model = models.load_model(MODEL_PATH)
+model = models.load_model(MODEL_PATH,compile=False)
 print("Modell geladen.")
 
 img = image.load_img(IMAGE_TO_PREDICT, target_size=IMG_SIZE)
