@@ -3,10 +3,10 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 from nltk.probability import FreqDist
-# Nur einmal!!
+# Nur einmal download!!
 # nltk.download("punkt")
-nltk.download("stopwords")
-nltk.download("punkt_tab")
+# nltk.download("stopwords")
+# nltk.download("punkt_tab")
 
 text = "Text Mining ist Cool. mit Python und NLTK macht es spaß!"
 
