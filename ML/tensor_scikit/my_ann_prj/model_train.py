@@ -63,7 +63,7 @@ model.compile(optimizer="adam",
 
 model.summary()
 
-EPOCHS = 20
+EPOCHS = 10
 history = model.fit(train_dataset, epochs=EPOCHS, validation_data=validation_dataset)
 
 model.save(os.path.join(BASE_PATH, "male_female_model.h5"))  #human
