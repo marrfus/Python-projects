@@ -39,7 +39,7 @@ print("######## Sentiment English ########")
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 # nltk.download("vader_lexicon")   #einmalige download
-# nltk.download("vader_lexicon")   #einmalige download
+
 
 sia = SentimentIntensityAnalyzer()  #für Englisch Texte verwendet!!!
 
